@@ -1,9 +1,7 @@
 package programmers;
 
 public class HateEvenNumbers {
-}
 
-class Solution {
     public int[] solution(int n) {
         int[] answer = {};
 
