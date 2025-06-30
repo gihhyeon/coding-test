@@ -1,4 +1,4 @@
-package programmers;
+package programmers.level0;
 
 /**
  * 정수가 들어 있는 배열 num_list가 매개변수로 주어집니다.

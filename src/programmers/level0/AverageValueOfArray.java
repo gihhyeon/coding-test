@@ -1,4 +1,4 @@
-package programmers;
+package programmers.level0;
 
 public class AverageValueOfArray {
     public double solution(int[] numbers) {

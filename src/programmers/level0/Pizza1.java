@@ -1,4 +1,4 @@
-package programmers;
+package programmers.level0;
 
 public class Pizza1 {
     public int solution(int n) {
