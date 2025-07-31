@@ -1,0 +1,24 @@
+package programmers.level1;
+
+import java.util.Stack;
+
+public class HateSameNumbers {
+    public Stack solution(int []arr) {
+
+        Stack<Integer> stack = new Stack<Integer>();
+
+        for (int i = 0; i < arr.length; i++) {
+            if (stack.isEmpty() || stack.peek() != arr[i]) {
+                stack.push(arr[i]);
+            }
+        }
+
+//         int[] answer = new int[stack.size()];
+
+//         for (int i = stack.size() - 1; i >= 0; i--) {
+//             answer[i] = stack.pop();
+//         }
+
+        return stack;
+    }
+}
